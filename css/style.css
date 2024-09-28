@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(110deg, #152523, rgb(2, 173, 252));
+    width: 100vw;
+    height: 100vh;
+}
+
+.container h1 {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid red;
+    color: #ebfffc;
+}
+
+.container {
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    background: linear-gradient(135deg, #172120, #5b548a);
+    color: #fff;
+    margin: 15px auto 0;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #0c0d0d;
+    padding: 10px 20px;
+    height: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    flex: 1;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weather-icon {
+    width: 175px;
+    margin-top: 10px;
+}
+
+.weather h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 50px;
+    margin-right: 10px;
+
+}
+
+.humidity,
+.wind {
+    font-size: 20px;
+    margin-top: -6px;
+}
+.error{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: white;
+    display: none;
+}
